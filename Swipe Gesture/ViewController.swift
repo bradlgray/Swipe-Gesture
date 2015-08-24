@@ -22,9 +22,11 @@ class ViewController: UIViewController {
         label.addGestureRecognizer(gesture)
         
         label.userInteractionEnabled = true
-    
+    //sets everything up
     
     }
+    
+    // func does all the heavy lifting by moving left or right, shrinking as it gets farther from center
     
     func wasDragged(gesture: UIPanGestureRecognizer) {
        
@@ -66,7 +68,7 @@ class ViewController: UIViewController {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
     }
 
 
